@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(214, 211, 211);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lines-1 {
+  margin-top: 5px;
+  transform: rotate(5deg);
+}
+.lines-2 {
+  margin-top: 15px;
+  transform: rotate(-5deg);
+}
+.lines-3 {
+  margin-top: 10px;
+  transform: rotate(-10deg);
+}
+.capctha-box {
+  width: 200px;
+  height: 200px;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+input {
+  text-transform: uppercase;
+}
